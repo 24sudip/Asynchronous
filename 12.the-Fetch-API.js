@@ -15,7 +15,7 @@
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Body/json
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch("https://jsonplaceholder.typicode.com/comments")
   .then((response) => {
     return response.json();
   })
